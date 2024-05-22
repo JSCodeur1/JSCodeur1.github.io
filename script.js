@@ -44,7 +44,7 @@ function grid (left, top, width, height, opa, pique, id) {
     d.id = id;
     body.appendChild(d);
     if (pique) {
-        d.style.background = "url(file:///D:/Bureauloulous/maman/ief/costume1.svg)"
+        d.style.background = "url(D:\Bureauloulous\Ylann\programmation\projets pages web\Geometry Dash\Pique vecteur.svg)"
         top += 2;
     } else{
         d.style.backgroundColor = "black";
