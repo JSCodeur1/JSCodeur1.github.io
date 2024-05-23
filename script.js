@@ -44,7 +44,7 @@ function grid (left, top, width, height, opa, pique, id) {
     d.id = id;
     body.appendChild(d);
     if (pique) {
-        d.style.background = "url(D:\Bureauloulous\Ylann\programmation\projets pages web\Geometry Dash\Pique vecteur.svg)"
+        d.style.background = "url(https://tiermaker.com/images/media/template_images/2024/16361404/gd-spike-tier-list-16361404/screenshot20231120-203009-997.png)"
         top += 2;
     } else{
         d.style.backgroundColor = "black";
