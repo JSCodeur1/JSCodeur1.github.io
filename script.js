@@ -44,7 +44,7 @@ function grid (left, top, width, height, opa, pique, id) {
     d.id = id;
     body.appendChild(d);
     if (pique) {
-        d.style.background = "url(https://JSCodeur1.github.io/Pique vecteur.svg)"
+        d.style.background = "url(https://JSCodeur1.github.io/Spike.svg)"
         top += 2;
     } else{
         d.style.backgroundColor = "black";
