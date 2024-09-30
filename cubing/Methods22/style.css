@@ -1,0 +1,78 @@
+table {
+    background: white;
+    border-collapse: collapse;
+    width: 1500px;
+    position: absolute center;
+    border: 2px solid red;
+    box-shadow: 10px 10px 30px black; 
+}
+
+thead tr {
+    background: red;
+    color: #fff;
+    border: 2px solid #000000;
+    background-color: #5a5a5a;
+}
+
+tbody tr td{
+    border: 1px solid #ff7979;
+    background: #e7e7e7;
+    padding: 10px 10px;
+}
+
+body {
+    background: gray;
+    font-family: 'Comic Sans MS', Arial;
+}
+
+a {
+    color: black;
+    font-weight: bold;
+}
+
+.menu {
+    height: 50px;
+    background-color: white;
+    width: auto;
+    text-align: center;
+    font-family: Arial;
+}
+
+.titre {
+    font-size: 25px;
+    font-family: 'Black Ops One', 'Comic Sans MS', Arial;
+}
+
+.steps {
+    line-height: 40px;
+    background-color: #ffd0b5;
+}
+
+.para {
+    font-size: 15px;
+}
+
+.bon, .moyen, .mal {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.bon {
+    color: #33b813;
+}
+
+.moyen {
+    color: orange;
+}
+
+.mal {
+    color: red;
+}
+
+#alg {
+    background-color: #bcd7ff;
+}
+
+#move {
+    background-color: #bcd7ff;
+}
