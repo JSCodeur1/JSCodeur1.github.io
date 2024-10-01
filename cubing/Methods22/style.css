@@ -32,11 +32,9 @@ a {
 
 #menu {
     height: 20px;
-    position: absolute;
-    left: 0px;
+    right: 0px;
     background-color: white;
     width: auto;
-    text-align: right;
     font-family: Arial;
     font-size: 12px;
 }
