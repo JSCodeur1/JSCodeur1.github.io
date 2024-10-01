@@ -31,12 +31,22 @@ a {
 }
 
 .menu {
+    height: 20px;
+    position: absolute;
+    left: 0px;
+    background-color: white;
+    width: auto;
+    text-align: right;
+    font-family: Arial;
+    font-size: 12px;
+}
+
+.text {
     height: 50px;
     background-color: white;
     width: auto;
     text-align: center;
     font-family: Arial;
-}
 
 .titre {
     font-size: 25px;
