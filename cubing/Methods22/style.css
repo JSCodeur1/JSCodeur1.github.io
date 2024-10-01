@@ -30,7 +30,7 @@ a {
     font-weight: bold;
 }
 
-.menu {
+@menu {
     height: 20px;
     position: absolute;
     left: 0px;
@@ -41,7 +41,7 @@ a {
     font-size: 12px;
 }
 
-.text {
+@text {
     height: 50px;
     background-color: white;
     width: auto;
