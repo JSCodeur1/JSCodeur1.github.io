@@ -144,7 +144,6 @@ function rejouer () {
 /* ----------------- projet ----------------- */
 
 console.log("Geometry Dash !");
-alert("note : something went wrong with the spikes ¯\\_(ツ)_/¯\n (I'll fix this soon, I promise.)");
 
 const body = document.querySelector('body');
 const tailleY = window.innerHeight;
