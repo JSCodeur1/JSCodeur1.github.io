@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>LSLL Methods comparison</title>
+        <meta charset="utf-8">
+        <link rel = "stylesheet" href = "style.css">
+    </head>
+    <body>
+        <div id="text">
+            <p><br>A quick comparison of the possible ways to solve LSLL (Last Slot Last Layer).</p>
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Method</th>
+                    <th>Steps</th>
+                    <th>Algorithmn count</th>
+                    <th>Movecount</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><p class="titre">CFOP</p> <p class="para">The basic way</p></td>
+                    <td class = "steps">Face        (intuitive, 5 average movecount)<br>OLL         (7 algorithms, 7.3 average movecount)<br>PLL         (2 algorithms, 15.5 average movecount)</td>
+                    <td id="alg"><p class = "bon">9</p></td>
+                    <td id="move"><p class = "mal">25</p></td>
+                </tr>
+                <tr>
+                    <td><p class="titre">Ortega</p> <p class="para">The first real 2x2 method to learn. Very simple, and also pretty good.</p></td>
+                    <td class = "steps">Pseudo-face (intuitive, 3.5 average movecount)<br>OLL         (7 algorthms, 7.3 average movecount)<br>PBL         (8 algorithms, 8.75 average movecount)</td>
+                    <td id="alg"><p class = "bon">15</p></td>
+                    <td id="move"><p class = "moyen">20</p></td>
+                </tr>
+                <tr>
+                    <td><p class="titre">CLL</p> <p class="para">The most used method for intermediate solvers. You can be sub-3 with it.</p></td>
+                    <td class = "steps">Face        (intuitive, 5 average movecount)<br>CLL         (42 algorithms, 9.8 average movecount)</td>
+                    <td id="alg"><p class = "moyen">42</p></td>
+                    <td id="move"><p class = "bon">15.6</p></td>
+                </tr>
+                <tr>
+                    <td><p class="titre">EG</p> <p class="para">By far the best 2x2 method. Every world class cuber use it.</p></td>
+                    <td class = "steps">Pseudo-face (intuitive, 3.5 average movecount)<br>EG          (128 algorithms, 9 average movecount)</td>
+                    <td id="alg"><p class = "mal">128</p></td>
+                    <td id="move"><p class = "bon">12.35</p></td>
+                </tr>
+            </tbody>
+        </table>
+        <div id="menu">
+            <p>Go to the <a href="https://jscodeur1.github.io/cubing/home">homepage</a>. More about me <a href="https://github.com/JSCodeur1">Here</a>.</p>
+        </div>
+    </body>
+</html>
