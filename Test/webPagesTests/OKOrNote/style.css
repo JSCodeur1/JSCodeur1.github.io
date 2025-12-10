@@ -18,13 +18,13 @@ html {
   background-color: #CBFFC9 /*vert clair*/
 }
 .or {
-  position: relative;
+  display: inline;
   width: 28%;
   border: solid black 1px;
   background-color: #858585; /*gris plutot foncé*/
 }
 .not {
-  position: relative;
+  display: inline;
   width: 33%;
   border: solid black 1px;
   background-color: #FFABAB; /*rouge clair*/
