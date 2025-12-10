@@ -7,10 +7,9 @@ html {
   text-align: center;
 }
 #question {
-  width: 100%;
   padding-top: 5%;
   padding-bottom: 5%;
-  border: solid black 1%;
+  border: 1px solid black;
   background-color: #C2C2C2; /*gris clair*/
 }
 #choix {
@@ -19,17 +18,17 @@ html {
 }
 .ok {
   width: 35%;
-  border: solid black 1px;
+  border: 1px solid black;
   background-color: #CBFFC9 /*vert clair*/
 }
 .or {
   width: 30%;
-  border: solid black 1px;
+  border: 1px solid black;
   background-color: #858585; /*gris plutot foncé*/
 }
 .not {
   width: 35%;
-  border: solid black 1px;
+  border: 1px solid black;
   background-color: #FFABAB; /*rouge clair*/
 }
 .ok #neutre, .not #neutre {
