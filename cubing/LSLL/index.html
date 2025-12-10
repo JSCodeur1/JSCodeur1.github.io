@@ -7,11 +7,10 @@
         <link rel = "stylesheet" href = "style.css">
     </head>
     <body>
-        <img src="https://www.speedsolving.com/wiki/images/1/1a/LastSlot.png" alt="What LSLL looks like">
         <div id="text">
             <p><br>A quick comparison of the possible ways to solve LSLL (Last Slot Last Layer).</p>
         </div>
-        <table>
+        <table id="table">
             <thead>
                 <tr>
                     <th>Method</th>
@@ -23,30 +22,27 @@
             <tbody>
                 <tr>
                     <td><p class="titre">CFOP</p> <p class="para">The basic way</p></td>
-                    <td class = "steps">Face        (intuitive, 5 average movecount)<br>OLL         (7 algorithms, 7.3 average movecount)<br>PLL         (2 algorithms, 15.5 average movecount)</td>
-                    <td id="alg"><p class = "bon">9</p></td>
-                    <td id="move"><p class = "mal">25</p></td>
+                    <td class = "steps"><table id="steps">
+                        <tr>Last slot (41 algs, 7.5 HTM)</tr>
+                        <tr>OLL (57 algs, 9.7 HTM)</tr>
+                        <tr>PLL (21 algs, 13.3 HTM)</tr>
+                    </table></td>
+                    <td id="alg"><p class = "bon">119</p></td>
+                    <td id="move"><p class = "mal">33.5</p></td>
                 </tr>
                 <tr>
-                    <td><p class="titre">Ortega</p> <p class="para">The first real 2x2 method to learn. Very simple, and also pretty good.</p></td>
-                    <td class = "steps">Pseudo-face (intuitive, 3.5 average movecount)<br>OLL         (7 algorthms, 7.3 average movecount)<br>PBL         (8 algorithms, 8.75 average movecount)</td>
-                    <td id="alg"><p class = "bon">15</p></td>
-                    <td id="move"><p class = "moyen">20</p></td>
-                </tr>
-                <tr>
-                    <td><p class="titre">CLL</p> <p class="para">The most used method for intermediate solvers. You can be sub-3 with it.</p></td>
-                    <td class = "steps">Face        (intuitive, 5 average movecount)<br>CLL         (42 algorithms, 9.8 average movecount)</td>
-                    <td id="alg"><p class = "moyen">42</p></td>
-                    <td id="move"><p class = "bon">15.6</p></td>
-                </tr>
-                <tr>
-                    <td><p class="titre">EG</p> <p class="para">By far the best 2x2 method. Every world class cuber use it.</p></td>
-                    <td class = "steps">Pseudo-face (intuitive, 3.5 average movecount)<br>EG          (128 algorithms, 9 average movecount)</td>
-                    <td id="alg"><p class = "mal">128</p></td>
-                    <td id="move"><p class = "bon">12.35</p></td>
+                    <td><p class="titre">ZB</p> <p class="para">The algorithmic way</p></td>
+                    <td class = "steps"><table id="steps">
+                        <tr>ZBLS (solve F2L & EO) (302 algs)</tr>
+                        <tr>ZBLL (493 algs, 12.08 HTM)</tr>
+                        <tr>Solved !</tr>
+                    </table></td>
+                    <td id="alg"><p class = "bon">795</p></td>
+                    <td id="move"><p class = "mal">26.93</p></td>
                 </tr>
             </tbody>
         </table>
+        <img src="https://www.speedsolving.com/wiki/images/1/1a/LastSlot.png" alt="What LSLL looks like">
         <div id="menu">
             <p>Go to the <a href="https://jscodeur1.github.io/cubing/home">homepage</a>. More about me <a href="https://github.com/JSCodeur1">Here</a>.</p>
         </div>
