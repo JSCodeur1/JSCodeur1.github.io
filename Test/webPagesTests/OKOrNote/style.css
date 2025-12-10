@@ -18,21 +18,21 @@ html {
 }
 .ok {
   display: flex;
-  width: 33%;
+  width: 30%;
   height: 100%;
   border: solid black 1px;
   background-color: #CBFFC9 /*vert clair*/
 }
 .or {
   display: flex;
-  width: 28%;
+  width: 25%;
   height: 100%;
   border: solid black 1px;
   background-color: #858585; /*gris plutot foncé*/
 }
 .not {
   display: flex;
-  width: 33%;
+  width: 30%;
   height: 100%;
   border: solid black 1px;
   background-color: #FFABAB; /*rouge clair*/
