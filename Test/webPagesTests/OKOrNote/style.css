@@ -14,24 +14,22 @@ html {
   background-color: #C2C2C2; /*gris clair*/
 }
 #choix {
+  display: flex;
   width: 100%;
 }
 .ok {
-  display: flex;
   width: 30%;
   height: 100%;
   border: solid black 1px;
   background-color: #CBFFC9 /*vert clair*/
 }
 .or {
-  display: flex;
   width: 25%;
   height: 100%;
   border: solid black 1px;
   background-color: #858585; /*gris plutot foncé*/
 }
 .not {
-  display: flex;
   width: 30%;
   height: 100%;
   border: solid black 1px;
