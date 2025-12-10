@@ -9,24 +9,31 @@ html {
 }
 #question {
   width: 98%;
+  heigth: 75%;
   border: solid black 1%;
   background-color: #C2C2C2; /*gris clair*/
+}
+#choix {
+  width: 100%;
 }
 .ok {
   display: inline;
   width: 33%;
+  heigth: 100%;
   border: solid black 1px;
   background-color: #CBFFC9 /*vert clair*/
 }
 .or {
   display: inline;
   width: 28%;
+  heigth: 100%;
   border: solid black 1px;
   background-color: #858585; /*gris plutot foncé*/
 }
 .not {
   display: inline;
   width: 33%;
+  heigth: 100%;
   border: solid black 1px;
   background-color: #FFABAB; /*rouge clair*/
 }
