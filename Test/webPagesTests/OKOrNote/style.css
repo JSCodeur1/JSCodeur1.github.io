@@ -1,0 +1,32 @@
+html {
+  text-align: center;
+}
+.q {
+  width: 100px;
+  heigth: 50px;
+  text-align: center;
+}
+#question {
+  width: 98%;
+  border: solid black 1%;
+  background-color: #C2C2C2; /*gris clair*/
+}
+.ok {
+  width: 33%;
+  border: solid black 1px;
+  background-color: #CBFFC9 /*vert clair*/
+}
+.or {
+  width: 28%;
+  border: solid black 1px;
+  background-color: #858585; /*gris plutot foncé*/
+}
+.not {
+  width: 33%;
+  border: solid black 1px;
+  background-color: #FFABAB; /*rouge clair*/
+}
+.ok #neutre, .not #neutre {
+  background-color: #A6A6A6; /*gris plus foncé que la question, mais moins que la case "or"*/
+}
+  
