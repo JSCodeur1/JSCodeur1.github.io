@@ -4,35 +4,30 @@ html {
 }
 .q {
   width: 500px;
-  height: 200px;
   text-align: center;
 }
 #question {
   width: 100%;
-  height: 58%;
+  padding-top: 10%;
   border: solid black 1%;
   background-color: #C2C2C2; /*gris clair*/
 }
 #choix {
   display: flex;
   width: 100%;
-  height: 40%;
 }
 .ok {
   width: 35%;
-  height: 100%;
   border: solid black 1px;
   background-color: #CBFFC9 /*vert clair*/
 }
 .or {
   width: 30%;
-  height: 100%;
   border: solid black 1px;
   background-color: #858585; /*gris plutot foncé*/
 }
 .not {
   width: 35%;
-  height: 100%;
   border: solid black 1px;
   background-color: #FFABAB; /*rouge clair*/
 }
