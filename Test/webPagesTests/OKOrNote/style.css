@@ -2,8 +2,8 @@ html {
   text-align: center;
 }
 .q {
-  width: 100px;
-  heigth: 50px;
+  width: 500px;
+  heigth: 200px;
   text-align: center;
 }
 #question {
@@ -17,11 +17,13 @@ html {
   background-color: #CBFFC9 /*vert clair*/
 }
 .or {
+  position: relative;
   width: 28%;
   border: solid black 1px;
   background-color: #858585; /*gris plutot foncé*/
 }
 .not {
+  position: relative;
   width: 33%;
   border: solid black 1px;
   background-color: #FFABAB; /*rouge clair*/
